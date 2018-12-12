@@ -1,3 +1,12 @@
 body{
     line-height: 27px
 }
+
+div[role=main] h2{
+    border-bottom: 3px solid #1995dc;
+    padding-bottom: 5px;
+}
+
+div[role=complementary] ul.nav :not(.main){
+    margin-left: 20px
+}
