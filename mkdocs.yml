@@ -4,7 +4,6 @@ site_description: Tài liệu sản phẩm
 site_author: TDFOSS.,LTD
 
 repo_url: https://github.com/mynukeviet/docs-tdfoss
-edit_uri: ""
 
 theme:
     name: mkdocs
