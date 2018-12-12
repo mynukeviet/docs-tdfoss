@@ -1,0 +1,29 @@
+site_name: TDFOSS.,LTD
+site_url: https://www.tdfoss.vn
+site_description: Tài liệu sản phẩm
+site_author: TDFOSS.,LTD
+
+repo_url: https://github.com/mynukeviet/docs-tdfoss
+edit_uri: ""
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - Hướng dẫn chung:
+        - Đăng nhập quản trị: huong-dan-chung/dang-nhap-quan-tri.md
+        
+    - Sản phẩm:
+        - Website tổ chức thi trắc nghiệm khảo sát: san-pham/trac-nghiem-khao-sat/index.md
+
+extra_css:
+    - css/extra.css
+
+copyright: Bản quyền thuộc về <a href="https://tdfoss.vn"><strong>CÔNG TY TNHH PHÁT TRIỂN VÀ DỊCH VỤ NGUỒN MỞ THUẬN ĐỨC</strong></a><br />Yêu cầu giữ ghi chú bản quyền khi sao chép thông tin từ website này.
+
+plugins:
+    - search
