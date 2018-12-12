@@ -7,6 +7,10 @@ div[role=main] h2{
     padding-bottom: 5px;
 }
 
-div[role=complementary] ul.nav :not(.main){
+div[role=complementary] ul.nav>li:not(.main){
     margin-left: 20px
+}
+
+.bs-sidebar.well{
+    max-height: 80%
 }
