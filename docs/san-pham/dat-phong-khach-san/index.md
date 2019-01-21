@@ -32,7 +32,7 @@ Mục hoạt động hiển thị phòng còn hoạt động hay không để ch
 
 ![](images/4.png) 
 
-Để chắc chắn việc thay đổi người dùng chọn **"OK"** và ngược lại nếu không chọn **"Cancel"**
+Để chắc chắn việc thay đổi người dùng chọn **"OK"** và ngược lại nếu không chọn **"Cancel"**.
 
 ![](images/5.png) 
 
@@ -44,7 +44,7 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Thêm phòng (2
 
 Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
 ![](images/8.png) 
 ![](images/9.png) 
@@ -52,7 +52,7 @@ Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông 
 
 ## 2. Quản lý loại phòng
 ### 2.1. Hiển thị thông tin loại phòng
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý loại phòng (2) 
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý loại phòng (2).
 
 ![](images/11.png)
 
@@ -63,7 +63,7 @@ Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông 
 
 ![](images/13.png)
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
 ### 2.3. Sửa, xóa thông tin loại phòng
 Để sửa thông tin loại phòng, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
@@ -83,7 +83,7 @@ Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông 
 ![](images/15.png)
 
 ## 3. Quản lý tiện nghi
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý tiện nghi (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý tiện nghi (2).
  
 ![](images/16.png)
 
@@ -92,7 +92,7 @@ Trong giao diện dưới đây, bạn điền đầy đủ các trường thôn
 
 ![](images/17.png)
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
 ### 3.2. Sửa, xóa thông tin tiện nghi
 
@@ -117,7 +117,7 @@ Trong giao diện dưới đây, bạn điền đầy đủ các trường thôn
 ![](images/24.png) 
 
 ## 4. Quản lý giảm giá
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý giảm giá (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý giảm giá (2).
  
 ![](images/20.png)
 
@@ -126,11 +126,11 @@ Trong giao diện dưới đây, bạn điền đầy đủ các trường thôn
 
 ![](images/21.png)
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
 ### 4.2. Sửa, xóa thông tin giảm giá
 
-Để sửa thông tin giảm giá, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa
+Để sửa thông tin giảm giá, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
 
 ![](images/22.png)
 
@@ -145,7 +145,7 @@ Chỉnh sửa thông tin hoạt động người dùng chọn checkbox để đi
 ![](images/26.png)
 
 ## 5. Quản lý nhóm phòng
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý nhóm phòng (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý nhóm phòng (2).
  
 ![](images/27.png)
 
@@ -154,11 +154,11 @@ Trong giao diện dưới đây, bạn điền đầy đủ các trường thôn
 
 ![](images/28.png)
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
 ### 5.2. Sửa, xóa thông tin nhóm phòng
 
-Để sửa thông tin nhóm phòng, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa
+Để sửa thông tin nhóm phòng, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
 
 ![](images/29.png)
 
@@ -167,7 +167,7 @@ Chỉnh sửa thông tin chọn mặc định khi thêm. Nếu chọn có khi th
 ![](images/30.png)
 
 ## 6. Quản lý đánh giá
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý đánh giá (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý đánh giá (2).
  
 ![](images/31.png)
 
@@ -187,7 +187,7 @@ Hiển thị nhóm phòng hoặc không hoặc xóa nhóm phòng theo lựa ch�
 ![](images/34.png)
 
 ## 7. Quản lý đặt phòng
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý đặt phòng (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý đặt phòng (2).
  
 ![](images/35.png)
 
@@ -207,7 +207,7 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý đ�
 ![](images/38.png)
 
 ## 8. Đơn vị tiền tệ
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Đơn vị tiền tệ (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Đơn vị tiền tệ (2).
  
 ![](images/39.png)
 
@@ -218,27 +218,27 @@ Trong giao diện dưới đây, bạn điền đầy đủ các trường thôn
 
 ### 8.2. Sửa, xóa đơn vị tiền tệ
 
-Để sửa thông tin đơn vị tiền tệ, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa
+Để sửa thông tin đơn vị tiền tệ, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
 
 ![](images/41.png)
 
-Xóa nhiều người dùng check box theo thông tin mục cần xóa và chọn xóa mục chọn
+Xóa nhiều người dùng check box theo thông tin mục cần xóa và chọn xóa mục chọn.
 
 ![](images/42.png)
 
 ## 9. Cấu hình nội dung
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Cấu hình nội dung (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Cấu hình nội dung (2).
  
 ![](images/43.png)
 
 Có 3 mục người dùng cần cấu hình, xác nhận đặt phòng, xác nhận thanh toán, và thông báo nhận phòng, người dùng chọn từ khóa gợi ý và soạn nội dung.
 
 ## 10. Cấu hình
-Từ giao diện chính, truy cập menu Quản lý phòng (1) / Cấu hình (2)
+Từ giao diện chính, truy cập menu Quản lý phòng (1) / Cấu hình (2).
 
 Mục cấu hình giúp người dùng cấu hình chức năng theo ý muốn, gồm 2 mục chính cấu hình chức năng và cấu hình giao diện.
 
-Dưới đây là cấu hình theo chức năng
+Dưới đây là cấu hình theo chức năng:
 
 ![](images/44.png)
 
@@ -255,7 +255,7 @@ Dưới đây là cấu hình theo chức năng
 | 9 | Đơn vị tiền tệ | Người dùng chọn đơn vị tiền tệ để quy ước đơn vị giá cả của module |
 | 10 | Sử dụng bản đồ | Người dùng chọn google map để hiển thị địa điểm |
 
-Dưới đây là cấu hình giao diện
+Dưới đây là cấu hình giao diện:
 
 ![](images/45.png)
 
@@ -275,7 +275,7 @@ Phía dưới mục tìm kiếm thông tin phòng là 2 mục gợi ý **"Căn h
 
 ### 11.1. Tìm kiếm thông tin phòng
 
-Người dùng có thể tìm kiếm thông tin phòng qua **Loại phòng**, thời gian và từ khóa tìm kiếm
+Người dùng có thể tìm kiếm thông tin phòng qua **Loại phòng**, thời gian và từ khóa tìm kiếm.
 
 ![](images/46.png)
 
@@ -284,7 +284,7 @@ Sau khi tìm kiếm thông tin người dùng tìm kiếm sẽ được hiển t
 ![](images/47.png)
 
 ### 11.2. Đặt phòng
-Sau khi tìm kiếm được thông tin phòng thích hợp người dùng click vào Đặt phòng
+Sau khi tìm kiếm được thông tin phòng thích hợp người dùng click vào Đặt phòng.
 
 ![](images/48.png)
 
@@ -294,7 +294,7 @@ Người dùng điền tất cả thông tin vào để đắt phòng, hoàn t�
 
 ![](images/49.png)
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ** 
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ** .
 
 ### 11.3. Đánh giá phòng
 Người dùng sau khi sử dụng xong có thể vào phần đánh giá, đánh giá chất lượng phòng.
