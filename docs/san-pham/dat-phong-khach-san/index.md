@@ -44,7 +44,7 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Thêm phòng (2
 
 Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
 
-**( Lưu ý thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh )**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
 
 ![](images/8.png) 
 ![](images/9.png) 
@@ -63,7 +63,7 @@ Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông 
 
 ![](images/13.png)
 
-**( Lưu ý thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh )**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
 
 ### 2.3. Sửa, xóa thông tin loại phòng
 Để sửa thông tin loại phòng, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
@@ -91,6 +91,8 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý ti�
 Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
 
 ![](images/17.png)
+
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
 
 ### 3.2. Sửa, xóa thông tin tiện nghi
 
@@ -124,7 +126,7 @@ Trong giao diện dưới đây, bạn điền đầy đủ các trường thôn
 
 ![](images/21.png)
 
-**Chú ý: những thông tin bắt buộc nhập người dùng phải nhập đầy đủ**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
 
 ### 4.2. Sửa, xóa thông tin giảm giá
 
@@ -152,7 +154,7 @@ Trong giao diện dưới đây, bạn điền đầy đủ các trường thôn
 
 ![](images/28.png)
 
-**Chú ý: những thông tin bắt buộc nhập người dùng phải nhập đầy đủ**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**
 
 ### 5.2. Sửa, xóa thông tin nhóm phòng
 
@@ -292,7 +294,7 @@ Người dùng điền tất cả thông tin vào để đắt phòng, hoàn t�
 
 ![](images/49.png)
 
-**Chú ý: những thông tin bắt buộc nhập người dùng phải nhập đầy đủ**
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ** 
 
 ### 11.3. Đánh giá phòng
 Người dùng sau khi sử dụng xong có thể vào phần đánh giá, đánh giá chất lượng phòng.
@@ -304,3 +306,5 @@ Người dùng sau khi sử dụng xong có thể vào phần đánh giá, đán
 Để đăng ký đặt phòng trong ngày người dùng có thế kéo xuống phía dưới website, form đặt phòng hôm nay sẽ hiện ra, người dùng điền thông tin và gửi thông tin để đặt phòng trong ngày.
 
 ![](images/51.png)
+
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ** 
