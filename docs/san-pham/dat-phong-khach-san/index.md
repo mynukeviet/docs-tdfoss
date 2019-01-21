@@ -2,11 +2,28 @@
 title: Website đặt phòng khách sạn
 ---
 
+## Ngôn ngữ hệ thống
+
+Hệ thống quản lý sẽ có 2 mục ngôn ngữ đó là:
+
+- **Lang interface**:
+Lang interface chỉ thể hiện ngôn ngữ của hệ thống nhưng không thể hiện ngôn ngữ của module. 
+
+- **Lang data**:
+Lang data thể hiện ngôn ngữ data mà người dùng chọn của những module có ngôn ngữ đó, những module không có ngôn ngữ data giống người dùng chọn sẽ không hiển thị được.
+Khi chọn ngôn ngữ data thì mặc định những mục trong module sẽ thay đổi ngôn ngữ giống người dùng chọn lang data.
+
 ## 1. Quản lý phòng
 ### 1.1. Hiển thị danh sách phòng
 Từ giao diện chính truy cập vào mục Quản lý phòng, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.
 
 ![](images/1.PNG) 
+
+Ở giao diện hiển thị ở phần tên gọi khi người dùng click vào tên phòng sẽ hiện ra thông tin chi tiết phòng ở trong site, người dùng click vào xem ngoài site thì thông tin ngoài site sẽ được hiện ra.
+
+![](images/52.PNG) 
+
+![](images/53.PNG) 
 
 ### 1.2. Tìm kiếm thông tin phòng
 Để tìm kiếm thông tin phòng người dùng có thể tìm kiếm theo từ khóa hoặc lọc theo loại phòng. 
@@ -25,10 +42,14 @@ Sau khi nhập thông tin người dùng chọn tìm kiếm, thông tin tìm ki�
 
 ![](images/6.png) 
 
-### 1.4. Trạng thái phòng và tình trạng phòng
-Mục trạng thái phòng hiển thị trạng thái hết phòng hoặc còn phòng hoặc tự động, để chọn trạng thái người dùng chọn trạng thái cần chọn.
+### 1.4. Trạng thái phòng và hoạt động phòng
+Mục trạng thái phòng là trạng thái khi đặt phòng.
 
-Mục hoạt động hiển thị phòng còn hoạt động hay không để chỉnh sửa hoạt động người dùng chọn checkbox để thay đổi.
+Trạng thái Tự động: Khi khách đặt phòng và xác nhận thanh toán thì hệ thống sẽ thông báo phòng đã hết, các ngày đã thanh toán của phòng sẽ được ẩn đi và không chọn được,
+Còn phòng: Phòng luôn còn, kể cả khách trước đã thanh toán thì khách sau vẫn đặt và thanh toán được.
+Hết phòng: Phòng sẽ bị khóa chức năng đặt phòng.
+
+Mục hoạt động hiển thị trạng thái hoạt động của phòng.
 
 ![](images/4.png) 
 
@@ -44,12 +65,17 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Thêm phòng (2
 
 Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
-
 ![](images/8.png) 
 ![](images/9.png) 
 ![](images/10.png) 
 
+- Mục block phòng sẽ chọn từ nhóm phòng.
+- Mục tiện nghi sẽ lấy thông tin từ quản lý tiện nghi.
+- Mục chương trình giảm giá sẽ lấy thông tin quản lý mã giảm giá.
+- Mục loại phòng sẽ lấy thông tin nhóm quản lý loại phòng.
+- Giá phòng chọn loại giá theo cấu hình đơn vị tiền tệ, hệ thống sẽ tự động chuyển đổi thành giá ở ngôn ngữ hiện tại.
+
+**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 ## 2. Quản lý loại phòng
 ### 2.1. Hiển thị thông tin loại phòng
 Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý loại phòng (2).
@@ -63,6 +89,8 @@ Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông 
 
 ![](images/13.png)
 
+- Nhóm được phép xem chỉ định nhóm đó được xem loại phòng khi thêm vào.
+
 **Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
 ### 2.3. Sửa, xóa thông tin loại phòng
@@ -74,7 +102,7 @@ Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông 
 
 | STT | Thông tin | Mô tả |
 |-----|-----------|-------|
-| 1 | Vị trí | Chọn vị trí để thể hiện trên danh sách |
+| 1 | Vị trí | Chọn vị trí để sắp xếp, hể hiện trên danh sách |
 | 2 | Hiển thị trang chủ | Chọn có hoặc không để thể hiện trên trang chủ |
 | 3 | Cách thể hiện loại sản phẩm | chọn cách thể hiện để thể hiện sản phẩm ngoài trang chủ |
 | 4 | Số liên kết | Chọn số liên kết cho loại phòng|
@@ -171,6 +199,7 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý đá
  
 ![](images/31.png)
 
+Khi click vào tên gọi đánh giá thì sẽ hiện ra thông tin phòng đánh giá.
 ### 6.1. Tìm kiếm đánh giá
 Để tìm kiếm thông tin đánh giá người dùng có thể nhập từ khóa và bấm tìm kiếm hoặc người dùng có thể chọn tìm kiếm theo trạng thái, thông tin tìm kiếm sẽ hiện ra dưới bảng.
 
@@ -190,6 +219,11 @@ Hiển thị nhóm phòng hoặc không hoặc xóa nhóm phòng theo lựa ch�
 Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý đặt phòng (2).
  
 ![](images/35.png)
+
+Ở table hiển thị danh sách đặt phòng clickmax đặt phòng sẽ hiện ra thông tin chi tiết đặt phòng, người dùng có thể xác nhận đơn, hủy đơn và in thông tin đặt phòng
+
+![](images/54.PNG)
+
 
 ### 7.1. Tìm kiếm danh sách phòng đặt
 Để tìm kiếm thông tin phòng đã đặt người dùng có thể tìm kiếm theo từ khóa, mã đặt phòng, thời gian đặt phòng, email người đặt và trạng thái thanh toán. 
