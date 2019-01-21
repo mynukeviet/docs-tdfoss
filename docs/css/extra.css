@@ -14,3 +14,7 @@ div[role=complementary] ul.nav>li:not(.main){
 .bs-sidebar.well{
     max-height: 80%
 }
+
+.red {
+  color: red;
+}
