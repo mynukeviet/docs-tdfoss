@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://www.tdfoss.vn/huong-dan-chung/dang-nhap-quan-tri/</loc>
-     <lastmod>2018-12-12</lastmod>
+     <lastmod>2019-01-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://www.tdfoss.vn/san-pham/trac-nghiem-khao-sat/</loc>
-     <lastmod>2018-12-12</lastmod>
+     <lastmod>2019-01-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.tdfoss.vn/san-pham/dat-phong-khach-san/</loc>
+     <lastmod>2019-01-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
