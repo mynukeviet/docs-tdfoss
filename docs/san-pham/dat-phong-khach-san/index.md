@@ -6,7 +6,7 @@ title: Website đặt phòng khách sạn
 ### 1.1. Hiển thị danh sách phòng
 Từ giao diện chính truy cập vào mục Quản lý phòng, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.
 
-![](images/1.png) 
+![](images/1.PNG) 
 
 ### 1.2. Tìm kiếm thông tin phòng
 Để tìm kiếm thông tin phòng người dùng có thể tìm kiếm theo từ khóa hoặc lọc theo loại phòng. 
@@ -34,7 +34,7 @@ Mục hoạt động hiển thị phòng còn hoạt động hay không để ch
 
 Để chắc chắn việc thay đổi người dùng chọn **"OK"** và ngược lại nếu không chọn **"Cancel"**.
 
-![](images/5.png) 
+![](images/5.PNG) 
 
 
 ### 1.5. Thêm phòng
@@ -90,7 +90,7 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý ti�
 ### 3.1. Thêm tiện nghi
 Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
 
-![](images/17.png)
+![](images/17.PNG)
 
 **Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
@@ -124,7 +124,7 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Quản lý gi�
 ### 4.1. Thêm giảm giá
 Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin giảm giá. 
 
-![](images/21.png)
+![](images/21.PNG)
 
 **Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, thông tin tiếng việt nhập ngôn ngữ tiếng việt, tiếng anh nhập ngôn ngữ tiếng anh**.
 
@@ -214,7 +214,7 @@ Từ giao diện chính, truy cập menu Quản lý phòng (1) / Đơn vị ti�
 ### 8.1. Thêm đơn vị tiền tệ
 Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin đơn vị tiền tệ. 
 
-![](images/40.png)
+![](images/40.PNG)
 
 ### 8.2. Sửa, xóa đơn vị tiền tệ
 
@@ -257,7 +257,7 @@ Dưới đây là cấu hình theo chức năng:
 
 Dưới đây là cấu hình giao diện:
 
-![](images/45.png)
+![](images/45.PNG)
 
 | STT | Thông tin | Mô tả |
 |-----|-----------|-------|
@@ -269,7 +269,7 @@ Dưới đây là cấu hình giao diện:
 
 Khi đến với trang chủ website khách hàng sẽ thấy ngay mục tìm kiếm thông tin loại phòng.
 
-![](images/trangchu.png) 
+![](images/trangchu.PNG) 
 
 Phía dưới mục tìm kiếm thông tin phòng là 2 mục gợi ý **"Căn hộ đề xuất"** và **"Căn hộ mới"**.
 
@@ -281,7 +281,7 @@ Người dùng có thể tìm kiếm thông tin phòng qua **Loại phòng**, th
 
 Sau khi tìm kiếm thông tin người dùng tìm kiếm sẽ được hiển thị dưới danh sách, danh sách sẽ hiển thị thông tin giá cả, dịch vụ tiện ích, loại phòng , tình trạng...
 
-![](images/47.png)
+![](images/47.PNG)
 
 ### 11.2. Đặt phòng
 Sau khi tìm kiếm được thông tin phòng thích hợp người dùng click vào Đặt phòng.
@@ -292,19 +292,19 @@ Sau khi tìm kiếm được thông tin phòng thích hợp người dùng click
 
 Người dùng điền tất cả thông tin vào để đắt phòng, hoàn tất click vào gửi thông tin.
 
-![](images/49.png)
+![](images/49.PNG)
 
 **Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ** .
 
 ### 11.3. Đánh giá phòng
 Người dùng sau khi sử dụng xong có thể vào phần đánh giá, đánh giá chất lượng phòng.
 
-![](images/50.png)
+![](images/50.PNG)
 
 ### 11.4. Đăng ký đặt phòng hôm nay
 
 Để đăng ký đặt phòng trong ngày người dùng có thế kéo xuống phía dưới website, form đặt phòng hôm nay sẽ hiện ra, người dùng điền thông tin và gửi thông tin để đặt phòng trong ngày.
 
-![](images/51.png)
+![](images/51.PNG)
 
 **Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ** 
