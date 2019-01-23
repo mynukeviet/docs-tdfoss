@@ -18,7 +18,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ### 1.1. Hiển thị danh sách phòng
 - Từ giao diện chính truy cập vào mục Quản lý phòng, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.
 
-![](images/1.PNG) 
+![](images/1.png) 
 
 - Ở giao diện hiển thị ở phần tên gọi khi người dùng click vào tên phòng sẽ hiện ra thông tin chi tiết phòng ở trong site, người dùng click vào xem ngoài site thì thông tin ngoài site sẽ được hiện ra.
 
