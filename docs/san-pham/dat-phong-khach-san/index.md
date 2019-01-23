@@ -18,7 +18,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ### 1.1. Hiển thị danh sách phòng
 - Từ giao diện chính truy cập vào mục Quản lý phòng, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.
 
-![](images/1.PNG) 
+![](images/1.png) 
 
 - Ở giao diện hiển thị ở phần tên gọi khi người dùng click vào tên phòng sẽ hiện ra thông tin chi tiết phòng ở trong site, người dùng click vào xem ngoài site thì thông tin ngoài site sẽ được hiện ra.
 
@@ -37,7 +37,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 - Để sửa thông tin phòng, trên danh sách, bạn chọn liên kết sửa, ở cuối dòng. Tương tự cho việc Xóa.
 
-![](images/5.PNG) 
+![](images/5.png) 
 
 - Để xóa nhiều thông tin phòng cùng 1 lúc người dùng tick vào checkbox đầu thông tin phòng và chọn lênh xóa và bấm thực hiện.
 
@@ -54,7 +54,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 - Để chắc chắn việc thay đổi người dùng chọn **"OK"** và ngược lại nếu không chọn **"Cancel"**.
 
-![](images/8.png) 
+![](images/8.PNG) 
 
 
 ### 1.5. Thêm phòng
@@ -121,7 +121,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 - Để sửa thông tin tiện nghi, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
 
-![](images/17.PNG)
+![](images/17.png)
 
 ### 3.3. Tùy chỉnh tác vụ tiện nghi
 
@@ -147,7 +147,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ### 4.1. Thêm giảm giá
 - Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin giảm giá. 
 
-![](images/21.PNG)
+![](images/21.png)
 
 **Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt**.
 
@@ -249,7 +249,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 - Để sửa thông tin đơn vị tiền tệ, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
 
-![](images/40.PNG)
+![](images/40.png)
 
 - Xóa nhiều người dùng check box theo thông tin mục cần xóa và chọn xóa mục chọn.
 
@@ -294,7 +294,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 - Khi đến với trang chủ website khách hàng sẽ thấy ngay mục tìm kiếm thông tin loại phòng.
 
-![](images/45.PNG) 
+![](images/45.png) 
 
 - Phía dưới mục tìm kiếm thông tin phòng là 2 mục gợi ý **"Căn hộ đề xuất"** và **"Căn hộ mới"**.
 
@@ -306,7 +306,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 - Sau khi tìm kiếm thông tin người dùng tìm kiếm sẽ được hiển thị dưới danh sách, danh sách sẽ hiển thị thông tin giá cả, dịch vụ tiện ích, loại phòng , tình trạng...
 
-![](images/47.PNG)
+![](images/47.png)
 
 ### 11.2. Đặt phòng
 - Sau khi tìm kiếm được thông tin phòng thích hợp người dùng click vào Đặt phòng.
@@ -317,7 +317,7 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 - Người dùng điền tất cả thông tin vào để đắt phòng, hoàn tất click vào gửi thông tin.
 
-![](images/49.PNG)
+![](images/49.png)
 
 - Loại phòng lấy thông từ danh sách loại phòng phần quản lý loại phòng.
 - Ngày nhận phòng là thời gian người dùng chọn, thời gian này chi được chọn từ ngày hiện tại trở đi, sau ngày hiện tại sẽ không chọn được.
@@ -334,12 +334,12 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ### 11.3. Đánh giá phòng
 - Người dùng sau khi sử dụng xong có thể vào phần đánh giá, đánh giá chất lượng phòng.
 
-![](images/50.PNG)
+![](images/50.png)
 
 ### 11.4. Đăng ký đặt phòng hôm nay
 
 - Để đăng ký đặt phòng trong ngày người dùng có thế kéo xuống phía dưới website, form đặt phòng hôm nay sẽ hiện ra, người dùng điền thông tin và gửi thông tin để đặt phòng trong ngày.
 
-![](images/51.PNG)
+![](images/51.png)
 
 **Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ** 
