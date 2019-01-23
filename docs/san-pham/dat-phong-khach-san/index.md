@@ -16,11 +16,11 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 ## 1. Quản lý phòng
 ### 1.1. Hiển thị danh sách phòng
-- Từ giao diện chính truy cập vào mục Quản lý phòng, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.
+- Từ giao diện chính truy cập vào mục **Quản lý phòng**, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.
 
 ![](images/1.png) 
 
-- Ở giao diện hiển thị ở phần tên gọi khi người dùng click vào tên phòng sẽ hiện ra thông tin chi tiết phòng ở trong site, người dùng click vào xem ngoài site thì thông tin ngoài site sẽ được hiện ra.
+- Trên giao diện danh sách, ở phần tên gọi khi người dùng click vào tên phòng sẽ hiện ra thông tin chi tiết phòng, click vào nút **Xem ngoài site** để mở trang chi tiết phòng ở khu vực site (khu vực mà khách hàng sẽ nhìn thấy).
 
 ![](images/2.png) 
 
@@ -35,34 +35,30 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 ### 1.3. Sửa, xóa thông tin phòng
 
-- Để sửa thông tin phòng, trên danh sách, bạn chọn liên kết sửa, ở cuối dòng. Tương tự cho việc Xóa.
+- Để sửa thông tin phòng, trên danh sách, bạn chọn liên kết **Sửa**, ở cuối dòng. Tương tự cho việc **Xóa**
 
 ![](images/5.png) 
 
-- Để xóa nhiều thông tin phòng cùng 1 lúc người dùng tick vào checkbox đầu thông tin phòng và chọn lênh xóa và bấm thực hiện.
+- Để xóa nhiều phòng cùng một lúc, quản trị có thể check chọn phòng, chọn lệch **Xóa** và click **Thực hiện**.
 
 ![](images/6.png) 
 
 ### 1.4. Trạng thái phòng và hoạt động phòng
-- Mục trạng thái phòng là trạng thái khi đặt phòng.
-- Trạng thái Tự động: Khi khách đặt phòng và xác nhận thanh toán thì hệ thống sẽ thông báo phòng đã hết, các ngày đã thanh toán của phòng sẽ được ẩn đi và không chọn được.
-- Còn phòng: Phòng luôn còn, kể cả khách trước đã thanh toán thì khách sau vẫn đặt và thanh toán được.
-- Hết phòng: Phòng sẽ bị khóa chức năng đặt phòng.
-- Mục hoạt động hiển thị trạng thái hoạt động của phòng.
+Trạng thái phòng quy định trạng thái của khi thể hiện với khách hàng bên ngoài khu vực site.
+- **Tự động:** Khi khách đặt phòng và xác nhận thanh toán thì hệ thống sẽ thông báo phòng đã hết, các ngày đã thanh toán của phòng sẽ được ẩn đi và không chọn được.
+- **Còn phòng:** Phòng luôn còn, kể cả khách trước đã thanh toán thì khách sau vẫn đặt và thanh toán được.
+- **Hết phòng:** Phòng sẽ bị khóa chức năng đặt phòng.
 
 ![](images/7.png) 
 
-- Để chắc chắn việc thay đổi người dùng chọn **"OK"** và ngược lại nếu không chọn **"Cancel"**.
-
-![](images/8.PNG) 
-
+- Sau khi chọn thay đổi trạng thái, hệ thống hiển thị hộp thoại xác nhận lại hành động của bạn, chọn **"OK"** để xác nhận thay đổi hoặc **"Cancel"** để hủy hành động. Bạn cũng có thể thay đổi lại trạng thái khác sau khi đã thay đổi trạng thái thành công.
 
 ### 1.5. Thêm phòng
 - Từ giao diện chính, truy cập menu **Quản lý phòng (1) / Thêm phòng (2)**
 
 ![](images/9.png) 
 
-- Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
+- Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn **Lưu lại** ở cuối trang để hoàn tất. 
 
 ![](images/10.png) 
 
@@ -72,7 +68,8 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 - Mục loại phòng sẽ lấy thông tin nhóm quản lý loại phòng.
 - Giá phòng chọn loại giá theo cấu hình đơn vị tiền tệ, hệ thống sẽ tự động chuyển đổi thành giá ở ngôn ngữ hiện tại.
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt**.
+**Chú ý:** Những thông tin được đánh dấu sao <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt.
+
 ## 2. Quản lý loại phòng
 ### 2.1. Hiển thị thông tin loại phòng
 - Từ giao diện chính, truy cập menu **Quản lý phòng (1) / Quản lý loại phòng (2)**.
@@ -80,16 +77,16 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ![](images/11.png)
 
 ### 2.2. Thêm thông tin loại phòng
-- Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
+- Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn **Lưu lại** ở cuối trang để hoàn tất. 
 
 ![](images/12.png)
 
 - Nhóm được phép xem chỉ định nhóm đó được xem loại phòng khi thêm vào.
 
-**Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt**.
+**Chú ý:** Những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt.
 
 ### 2.3. Sửa, xóa thông tin loại phòng
-- Để sửa thông tin loại phòng, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.
+- Để sửa thông tin loại phòng, trên danh sách, bạn chọn liên kết **Sửa**, ở cuối dòng. Tương tự cho việc **Xóa**.
 
 ![](images/13.png)
 
