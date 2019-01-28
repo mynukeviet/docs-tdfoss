@@ -40,6 +40,9 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ![](images/5.png) 
 
 - Để xóa nhiều thông tin phòng cùng 1 lúc người dùng tick vào checkbox đầu thông tin phòng và chọn lênh xóa và bấm thực hiện.
+	- (1): Chọn phòng muốn xóa.
+	- (2): Chọn tác vụ xóa.
+	- (3): Chọn thực hiện để xóa.
 
 ![](images/6.png) 
 
@@ -63,7 +66,13 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ![](images/9.png) 
 
 - Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
-
+	- (1): Tên gọi của phòng.
+	- (2): Liên kết tĩnh của phòng.
+	- (3): Giới thiệu ngắn gọn.
+	- (4): Nội dung chi tiết.
+	- (5): Loại phòng chọn từ nhóm loại phòng.
+	- (6): Giá phòng chọn theo đơn vị tiền tệ.
+	- (7): Chọn tạo phòng để tạo phòng sau khi điền đủ thông tin.
 ![](images/10.png) 
 
 - Mục block phòng sẽ chọn từ nhóm phòng.
@@ -81,6 +90,9 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 ### 2.2. Thêm thông tin loại phòng
 - Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
+	- (1): Tên gọi của loại phòng.
+	- (2): Chọn chủ đề của phòng.
+	- (3): Chọn lưu lại sau khi điền đầy đủ thông tin phòng.
 
 ![](images/12.png)
 
@@ -112,6 +124,8 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 ### 3.1. Thêm tiện nghi
 - Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. 
+	- (1): Tên gọi của tiện nghi.
+	- (2): Chọn lưu lại để lưu tiền nghi.
 
 ![](images/16.png)
 
@@ -146,6 +160,9 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 
 ### 4.1. Thêm giảm giá
 - Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin giảm giá. 
+	- (1): Tên gọi mã giảm giá.
+	- (2): Chỉ số phần trăm của giảm giá.
+	- (3): Ngày bắt đầu hoạt động của mã giảm giá.
 
 ![](images/21.png)
 
@@ -173,7 +190,9 @@ Ngôn ngữ ngoài site: Khi người dùng chọn ngôn ngữ nào thì trang w
 ![](images/25.png)
 
 ### 5.1. Thêm nhóm phòng
-- Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin nhóm phòng. 
+- Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin nhóm phòng.
+	- (1): Tên gọi nhóm phòng.
+	- (2): Từ khóa nhóm phòng. 
 
 ![](images/26.png)
 
