@@ -69,6 +69,10 @@
 <li class="active">
     <a href="./">Website đặt phòng khách sạn</a>
 </li>
+                                    
+<li >
+    <a href="../kiem-ke-tai-san/">Hệ thống kiểm kê tài sản</a>
+</li>
                                 </ul>
                             </li>
                         </ul>
@@ -84,8 +88,8 @@
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li class="disabled">
-                                <a rel="prev" >
+                            <li >
+                                <a rel="prev" href="../kiem-ke-tai-san/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -161,11 +165,11 @@ Lang data thể hiện ngôn ngữ data mà người dùng chọn.</p>
 <h2 id="1-quan-ly-phong">1. Quản lý phòng</h2>
 <h3 id="11-hien-thi-danh-sach-phong">1.1. Hiển thị danh sách phòng</h3>
 <ul>
-<li>Từ giao diện chính truy cập vào mục Quản lý phòng, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.</li>
+<li>Từ giao diện chính truy cập vào mục <strong>Quản lý phòng</strong>, người dùng sẽ thấy danh sách thông tin các phòng được hiển thị.</li>
 </ul>
 <p><img alt="" src="images/1.png" /> </p>
 <ul>
-<li>Ở giao diện hiển thị ở phần tên gọi khi người dùng click vào tên phòng sẽ hiện ra thông tin chi tiết phòng ở trong site, người dùng click vào xem ngoài site thì thông tin ngoài site sẽ được hiện ra.</li>
+<li>Trên giao diện danh sách, ở phần tên gọi khi người dùng click vào tên phòng sẽ hiện ra thông tin chi tiết phòng, click vào nút <strong>Xem ngoài site</strong> để mở trang chi tiết phòng ở khu vực site (khu vực mà khách hàng sẽ nhìn thấy).</li>
 </ul>
 <p><img alt="" src="images/2.png" /> </p>
 <p><img alt="" src="images/3.png" /> </p>
@@ -179,43 +183,55 @@ Lang data thể hiện ngôn ngữ data mà người dùng chọn.</p>
 </ul>
 <h3 id="13-sua-xoa-thong-tin-phong">1.3. Sửa, xóa thông tin phòng</h3>
 <ul>
-<li>Để sửa thông tin phòng, trên danh sách, bạn chọn liên kết sửa, ở cuối dòng. Tương tự cho việc Xóa.</li>
+<li>Để sửa thông tin phòng, trên danh sách, bạn chọn liên kết <strong>Sửa</strong>, ở cuối dòng. Tương tự cho việc <strong>Xóa</strong></li>
 </ul>
 <p><img alt="" src="images/5.png" /> </p>
 <ul>
-<li>Để xóa nhiều thông tin phòng cùng 1 lúc người dùng tick vào checkbox đầu thông tin phòng và chọn lênh xóa và bấm thực hiện.</li>
+<li>Để xóa nhiều thông tin phòng cùng 1 lúc người dùng tick vào checkbox đầu thông tin phòng và chọn lênh xóa và bấm thực hiện.<ul>
+<li>(1): Chọn phòng muốn xóa.</li>
+<li>(2): Chọn tác vụ xóa.</li>
+<li>(3): Chọn thực hiện để xóa.</li>
+</ul>
+</li>
 </ul>
 <p><img alt="" src="images/6.png" /> </p>
 <h3 id="14-trang-thai-phong-va-hoat-ong-phong">1.4. Trạng thái phòng và hoạt động phòng</h3>
-<ul>
-<li>Mục trạng thái phòng là trạng thái khi đặt phòng.</li>
-<li>Trạng thái Tự động: Khi khách đặt phòng và xác nhận thanh toán thì hệ thống sẽ thông báo phòng đã hết, các ngày đã thanh toán của phòng sẽ được ẩn đi và không chọn được.</li>
-<li>Còn phòng: Phòng luôn còn, kể cả khách trước đã thanh toán thì khách sau vẫn đặt và thanh toán được.</li>
-<li>Hết phòng: Phòng sẽ bị khóa chức năng đặt phòng.</li>
-<li>Mục hoạt động hiển thị trạng thái hoạt động của phòng.</li>
-</ul>
+<p>Trạng thái phòng quy định trạng thái của khi thể hiện với khách hàng bên ngoài khu vực site.
+- <strong>Tự động:</strong> Khi khách đặt phòng và xác nhận thanh toán thì hệ thống sẽ thông báo phòng đã hết, các ngày đã thanh toán của phòng sẽ được ẩn đi và không chọn được.
+- <strong>Còn phòng:</strong> Phòng luôn còn, kể cả khách trước đã thanh toán thì khách sau vẫn đặt và thanh toán được.
+- <strong>Hết phòng:</strong> Phòng sẽ bị khóa chức năng đặt phòng.</p>
 <p><img alt="" src="images/7.png" /> </p>
 <ul>
-<li>Để chắc chắn việc thay đổi người dùng chọn <strong>"OK"</strong> và ngược lại nếu không chọn <strong>"Cancel"</strong>.</li>
+<li>Sau khi chọn thay đổi trạng thái, hệ thống hiển thị hộp thoại xác nhận lại hành động của bạn, chọn <strong>"OK"</strong> để xác nhận thay đổi hoặc <strong>"Cancel"</strong> để hủy hành động. Bạn cũng có thể thay đổi lại trạng thái khác sau khi đã thay đổi trạng thái thành công.</li>
 </ul>
-<p><img alt="" src="images/8.PNG" /> </p>
 <h3 id="15-them-phong">1.5. Thêm phòng</h3>
 <ul>
 <li>Từ giao diện chính, truy cập menu <strong>Quản lý phòng (1) / Thêm phòng (2)</strong></li>
 </ul>
 <p><img alt="" src="images/9.png" /> </p>
 <ul>
-<li>Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. </li>
-</ul>
-<p><img alt="" src="images/10.png" /> </p>
+<li>
+<p>Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. </p>
 <ul>
-<li>Mục block phòng sẽ chọn từ nhóm phòng.</li>
+<li>(1): Tên gọi của phòng.</li>
+<li>(2): Liên kết tĩnh của phòng.</li>
+<li>(3): Giới thiệu ngắn gọn.</li>
+<li>(4): Nội dung chi tiết.</li>
+<li>(5): Loại phòng chọn từ nhóm loại phòng.</li>
+<li>(6): Giá phòng chọn theo đơn vị tiền tệ.</li>
+<li>(7): Chọn tạo phòng để tạo phòng sau khi điền đủ thông tin.
+<img alt="" src="images/10.png" /> </li>
+</ul>
+</li>
+<li>
+<p>Mục block phòng sẽ chọn từ nhóm phòng.</p>
+</li>
 <li>Mục tiện nghi sẽ lấy thông tin từ quản lý tiện nghi.</li>
 <li>Mục chương trình giảm giá sẽ lấy thông tin quản lý mã giảm giá.</li>
 <li>Mục loại phòng sẽ lấy thông tin nhóm quản lý loại phòng.</li>
 <li>Giá phòng chọn loại giá theo cấu hình đơn vị tiền tệ, hệ thống sẽ tự động chuyển đổi thành giá ở ngôn ngữ hiện tại.</li>
 </ul>
-<p><strong>Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt</strong>.</p>
+<p><strong>Chú ý:</strong> Những thông tin được đánh dấu sao <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt.</p>
 <h2 id="2-quan-ly-loai-phong">2. Quản lý loại phòng</h2>
 <h3 id="21-hien-thi-thong-tin-loai-phong">2.1. Hiển thị thông tin loại phòng</h3>
 <ul>
@@ -224,16 +240,21 @@ Lang data thể hiện ngôn ngữ data mà người dùng chọn.</p>
 <p><img alt="" src="images/11.png" /></p>
 <h3 id="22-them-thong-tin-loai-phong">2.2. Thêm thông tin loại phòng</h3>
 <ul>
-<li>Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. </li>
+<li>Trong giao diện tiếp theo, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. <ul>
+<li>(1): Tên gọi của loại phòng.</li>
+<li>(2): Chọn chủ đề của phòng.</li>
+<li>(3): Chọn lưu lại sau khi điền đầy đủ thông tin phòng.</li>
+</ul>
+</li>
 </ul>
 <p><img alt="" src="images/12.png" /></p>
 <ul>
 <li>Nhóm được phép xem chỉ định nhóm đó được xem loại phòng khi thêm vào.</li>
 </ul>
-<p><strong>Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt</strong>.</p>
+<p><strong>Chú ý:</strong> Những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt.</p>
 <h3 id="23-sua-xoa-thong-tin-loai-phong">2.3. Sửa, xóa thông tin loại phòng</h3>
 <ul>
-<li>Để sửa thông tin loại phòng, trên danh sách, bạn chọn liên kết Sửa, ở cuối dòng. Tương tự cho việc Xóa.</li>
+<li>Để sửa thông tin loại phòng, trên danh sách, bạn chọn liên kết <strong>Sửa</strong>, ở cuối dòng. Tương tự cho việc <strong>Xóa</strong>.</li>
 </ul>
 <p><img alt="" src="images/13.png" /></p>
 <h3 id="24-tuy-chinh-tac-vu-thong-tin-loai-phong">2.4. Tùy chỉnh tác vụ thông tin loại phòng</h3>
@@ -281,7 +302,11 @@ Lang data thể hiện ngôn ngữ data mà người dùng chọn.</p>
 <p><img alt="" src="images/15.png" /></p>
 <h3 id="31-them-tien-nghi">3.1. Thêm tiện nghi</h3>
 <ul>
-<li>Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. </li>
+<li>Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất. <ul>
+<li>(1): Tên gọi của tiện nghi.</li>
+<li>(2): Chọn lưu lại để lưu tiền nghi.</li>
+</ul>
+</li>
 </ul>
 <p><img alt="" src="images/16.png" /></p>
 <p><strong>Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt</strong>.</p>
@@ -330,7 +355,12 @@ Lang data thể hiện ngôn ngữ data mà người dùng chọn.</p>
 <p><img alt="" src="images/20.png" /></p>
 <h3 id="41-them-giam-gia">4.1. Thêm giảm giá</h3>
 <ul>
-<li>Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin giảm giá. </li>
+<li>Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin giảm giá. <ul>
+<li>(1): Tên gọi mã giảm giá.</li>
+<li>(2): Chỉ số phần trăm của giảm giá.</li>
+<li>(3): Ngày bắt đầu hoạt động của mã giảm giá.</li>
+</ul>
+</li>
 </ul>
 <p><img alt="" src="images/21.png" /></p>
 <p><strong>Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt</strong>.</p>
@@ -355,7 +385,11 @@ Lang data thể hiện ngôn ngữ data mà người dùng chọn.</p>
 <p><img alt="" src="images/25.png" /></p>
 <h3 id="51-them-nhom-phong">5.1. Thêm nhóm phòng</h3>
 <ul>
-<li>Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin nhóm phòng. </li>
+<li>Trong giao diện dưới đây, bạn điền đầy đủ các trường thông tin, sau đó nhấn Lưu lại ở cuối trang để hoàn tất lưu lại thông tin nhóm phòng.<ul>
+<li>(1): Tên gọi nhóm phòng.</li>
+<li>(2): Từ khóa nhóm phòng. </li>
+</ul>
+</li>
 </ul>
 <p><img alt="" src="images/26.png" /></p>
 <p><strong>Chú ý: những thông tin <span class="red">(*)</span> bắt buộc nhập người dùng phải nhập đầy đủ, tab ngôn ngữ hiển thị các ngôn ngữ  mà người dùng đã cài đặt</strong>.</p>

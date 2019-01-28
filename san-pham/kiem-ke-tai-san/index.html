@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="TDFOSS.,LTD">
+        <link rel="canonical" href="https://www.tdfoss.vn/san-pham/kiem-ke-tai-san/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Hệ thống kiểm kê tài sản - TDFOSS.,LTD</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">TDFOSS.,LTD</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hướng dẫn chung <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../huong-dan-chung/dang-nhap-quan-tri/">Đăng nhập quản trị</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sản phẩm <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../trac-nghiem-khao-sat/">Website tổ chức thi trắc nghiệm khảo sát</a>
+</li>
+                                    
+<li >
+    <a href="../dat-phong-khach-san/">Website đặt phòng khách sạn</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Hệ thống kiểm kê tài sản</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../dat-phong-khach-san/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mynukeviet/docs-tdfoss/edit/master/docs/san-pham/kiem-ke-tai-san/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#i-ang-nhap-khu-vuc-quan-tri">I. Đăng nhập khu vực quản trị</a></li>
+        <li class="main "><a href="#ii-quan-tri-tai-khoan">II.  Quản trị tài khoản</a></li>
+            <li><a href="#1-them-tai-khoan-moi">1. Thêm tài khoản mới</a></li>
+            <li><a href="#2-quan-ly-tai-khoan">2. Quản lý tài khoản</a></li>
+            <li><a href="#3-them-quan-tri">3. Thêm quản trị</a></li>
+            <li><a href="#4-quan-ly-quan-tri-trang">4. Quản lý Quản trị trang</a></li>
+        <li class="main "><a href="#iii-quan-ly-kiem-ke-tai-san">III. Quản lý kiểm kê tài sản</a></li>
+            <li><a href="#1-loai-tai-san">1. Loại tài sản</a></li>
+            <li><a href="#2-nha-san-xuat">2. Nhà sản xuất</a></li>
+            <li><a href="#3-phong-ban">3. Phòng ban</a></li>
+            <li><a href="#4-on-vi-tai-san">4. Đơn vị tài sản</a></li>
+            <li><a href="#5-quan-ly-tai-san">5. Quản lý tài sản</a></li>
+            <li><a href="#6-kiem-ke-tai-san">6. Kiểm kê tài sản</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="i-ang-nhap-khu-vuc-quan-tri">I. Đăng nhập khu vực quản trị</h2>
+<ul>
+<li>
+<p>Nếu là người quản trị hệ thống, bạn tiến hành truy cập vào tài khoản quản trị qua đường dẫn này <a href="http://domain.vn/admin">www.domain.vn/admin</a>.</p>
+</li>
+<li>
+<p>Thông tin username + password đã được gửi qua email người chịu trách nhiệm dự án.</p>
+</li>
+</ul>
+<h2 id="ii-quan-tri-tai-khoan">II.  Quản trị tài khoản</h2>
+<h3 id="1-them-tai-khoan-moi">1. Thêm tài khoản mới</h3>
+<ul>
+<li>Chọn module Quản lý tài khoản, chọn Menu Thêm tài khoản mới (hoặc URL này <a href="http://domain.vn/admin/index.php?language=vi&amp;nv=users&amp;op=user_add">www.domain.vn/admin/index.php?language=vi&amp;nv=users&amp;op=user_add</a>).</li>
+<li>Nhập dữ liệu theo mẫu:<ul>
+<li><strong>Tài khoản (1)</strong>: Nhập họ và tên của chủ tài khoản.</li>
+<li><strong>Email (2)</strong>: Nhập địa chỉ mail của tài khoản.</li>
+<li><strong>Mật khẩu (3)</strong>: Nhập mật khẩu truy cập cho tài khoản. Có thể nhập trực tiếp hoặc chọn Tạo mật khẩu ngẫu nhiên (4). Hệ thống sẽ tự dộng tạo và gửi về mail của tài khoản.</li>
+<li><strong>Lặp lại mật khẩu (5)</strong>: Nhập lại mật khẩu. Có thể chọn hiển thị mật khẩu tại vị trí 6.</li>
+<li><strong>Họ và tên đệm (7)</strong>: Nhập Họ và tên đệm của người dùng.</li>
+<li><strong>Tên (8)</strong>: Nhập tên người dùng.</li>
+<li><strong>Giới tính (9)</strong>: Chọn giới tính người dùng.</li>
+<li><strong>Ngày tháng năm sinh (10)</strong>: Chọn ngày tháng năm sinh.</li>
+<li><strong>Chữ ký (11)</strong>: Tạo chữ ký sẽ hiển thị ở phần thông tin cá nhân.</li>
+<li><strong>Câu hỏi bảo mật (12)</strong> và <strong>Trả lời câu hỏi (13)</strong>: Sử dụng để bảo vệ tài khoản.</li>
+<li><strong>Hình đại diện (14)</strong>: Chọn hình đại diện cho tài khoản. Chọn thêm file ảnh tại vị trí số (15).</li>
+<li><strong>Hiển thị mail (16)</strong>: Cho phép hiển thị mail trên danh sách tài khoản nếu tích chọn.</li>
+<li><strong>Là tài khoản của nhóm (17)</strong>: Tích chọn nhóm cho tài khoản vừa thêm.</li>
+<li><strong>Là thành viên chính thức (18)</strong>: Tích chọn nếu tài khoản là thành viên chính thức.</li>
+<li><strong>Gửi mail thông báo (19)</strong> Khi tích mọi, các thông tin của tài khoản sẽ được gửi về mail của tài khoản.</li>
+<li><strong>Thêm tài khoản (20)</strong>: Nhấn chọn Thêm tài khoản để lưu lại dữ liệu.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập</strong></p>
+<p><img alt="" src="images/1.jpg" /> </p>
+<h3 id="2-quan-ly-tai-khoan">2. Quản lý tài khoản</h3>
+<p>Hệ thống quản lý các tài khoản trên hệ thống dưới dạng danh sách với các thông tin sau:</p>
+<ul>
+<li><strong>Tài khoản (1)</strong>: Tên tài khoản</li>
+<li><strong>Họ và tên (2)</strong>: Họ tên chủ tài khoản</li>
+<li><strong>Mail (3)</strong>: Địa chỉ mail của tài khoản</li>
+<li><strong>Ngày đăng ký (4)</strong>: Ngày đăng ký tài khoản</li>
+<li><strong>Hoạt động (5)</strong>: Tình trạng hoạt động của tài khoản</li>
+<li><strong>Chức năng (6)</strong>: Sửa hoặc xóa thông tin tài khoản.</li>
+<li><strong>Tìm kiếm (7)</strong>: Hệ thống hỗ trợ tìm kiếm tài khoản trên danh sách.</li>
+</ul>
+<p><img alt="" src="images/2.jpg" /> </p>
+<h3 id="3-them-quan-tri">3. Thêm quản trị</h3>
+<p>Để thêm quản trị, thành viên đó phải có tài khoản trên hệ thống. - Chọn Module Quản trị, chọn</p>
+<p>menu Thêm quản trị (hoặc URL này <a href="http://domain.vn/admin/index.php?language=vi&amp;nv=authors&amp;op=add">www.domain.vn/admin/index.php?language=vi&amp;nv=authors&amp;op=add</a>).</p>
+<ul>
+<li>Nhập dữ liệu theo mẫu:<ul>
+<li><strong>Chỉ định thành viên(1)</strong>: Nhập tên tài khoản hoặc chọn (2) ở danh sách tài khoản có sẵn.</li>
+<li><strong>Chức danh (3)</strong>: Nhập chức danh cho tài khoản muốn thêm.</li>
+<li><strong>Giao diện người quản trị (4)</strong>: Chọn giao diện admin.</li>
+<li><strong>Trình soạn thảo (5)</strong>: Cho phép người quản trị có nhiều tùy chọn nhập liệu văn bản.</li>
+<li><strong>Các kiểu file được phép tải lên (6)</strong>: Tích chọn kiểu file tài khoản quản trị được phép tải lên hệ thống.</li>
+<li><strong>Được phép sửa, xóa file (7)</strong>: Tích chọn nếu tài khoản quản trị được phép .</li>
+<li><strong>Được phép tạo thư mục (8)</strong>: Tích chọn nếu tài khoản được phép tạo thư mục trên hệ thống.</li>
+<li><strong>Được phép đổi tên, xóa thư mục (9)</strong>: Tích chọn nếu quản trị được phép.</li>
+<li><strong>Quyền hạn (10)</strong>: Tích chọn quyền hạn cho quản trị.</li>
+<li><strong>Thêm quản trị website (11)</strong>: Nhấn chọn để lưu dữ liệu.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập</strong></p>
+<p><img alt="" src="images/3.jpg" /> </p>
+<h3 id="4-quan-ly-quan-tri-trang">4. Quản lý Quản trị trang</h3>
+<p>Danh sách các tài khoản quản trị trên trang gồm các dữ liệu:</p>
+<ul>
+<li><strong>Tên tài khoản (1)</strong>: Tên tài khoản quản trị.</li>
+<li><strong>Email (2)</strong>: Địa chỉ mail của tài khoản.</li>
+<li><strong>Chức danh (3)</strong>: Chức danh của tài khoản quản trị.</li>
+<li><strong>Quyền hạn (4)</strong>: Quyền hạn của tài khoản quản trị trên trang.</li>
+<li><strong>Tình trạng hiện tại (5)</strong>: Tình trạng hoạt động của tài khoản.</li>
+<li><strong>Chức năng (6)</strong>: Sửa, đình chỉ hoạt động, xóa tài khoản quản trị Tài khoản quản trị chỉ được phép sửa hoặc xóa tài khoản quản trị cùng hoặc dưới cấp.</li>
+</ul>
+<p><img alt="" src="images/4.jpg" /> </p>
+<h2 id="iii-quan-ly-kiem-ke-tai-san">III. Quản lý kiểm kê tài sản</h2>
+<p>Truy cập tên miền chính <a href="http://domain.vn">www.domain.vn</a> và đăng nhập tài khoản đã được cấp</p>
+<h3 id="1-loai-tai-san">1. Loại tài sản</h3>
+<ul>
+<li>Quản trị tài sản:<ul>
+<li><strong>Thêm loại tài sản (1)</strong>: Thêm loại tài sản mới.</li>
+<li><strong>Tên loại tài sản (2)</strong>: Tên các loại tài sản hiện có.</li>
+<li><strong>Ghi chú (3)</strong>: Ghi chú về tài sản.</li>
+<li><strong>Chức nâng sửa xóa (4)</strong>: Cập nhật về tài sản.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/5.jpg" /> </p>
+<ul>
+<li>Thêm loại tài sản: Nhập dữ liệu theo mẫu ( <span class="red">*</span> là bắt buộc ).<ul>
+<li><strong>Tên loại tài sản (1)</strong>: Nhập tên tài sản.</li>
+<li><strong>Ghi chú (2)</strong>: Nhập ghi chú về loại tài sản nếu có.</li>
+<li><strong>Lưu thay đổi (3)</strong>: Nhấn chọn để lưu dữ liệu.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/6.jpg" /> </p>
+<h3 id="2-nha-san-xuat">2. Nhà sản xuất</h3>
+<ul>
+<li>Quản trị nhà sản xuất:<ul>
+<li><strong>Thêm nhà sản xuất (1)</strong>: Thêm nhà sản xuất mới.</li>
+<li><strong>Tên nhà sản xuất (2)</strong>: Tên các nhà sản xuất hiện có.</li>
+<li><strong>Ghi chú (3)</strong>: Ghi chú về nhà sản xuất.</li>
+<li><strong>Chức nâng sửa xóa (4)</strong>: Cập nhật về nhà sản xuất.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/7.jpg" /> </p>
+<ul>
+<li>Thêm nhà sản xuất<ul>
+<li><strong>Tên nhà sản xuất (1)</strong>: Nhập nhà sản xuất .</li>
+<li><strong>Ghi chú (2)</strong>: Nhập ghi chú về nhà sản xuất nếu có.</li>
+<li><strong>Lưu thay đổi (3)</strong>: Nhấn chọn để lưu dữ liệu.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/8.jpg" /> </p>
+<p><strong>Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập</strong></p>
+<h3 id="3-phong-ban">3. Phòng ban</h3>
+<ul>
+<li>Quản trị phòng ban:<ul>
+<li><strong>Thêm phòng ban (1)</strong>: Thêm phòng ban mới.</li>
+<li><strong>Tên phòng ban (2)</strong>: Tên các phòng ban hiện có.</li>
+<li><strong>Ghi chú (3)</strong>: Ghi chú về phòng ban.</li>
+<li><strong>Chức nâng sửa xóa (4)</strong>: Cập nhật về phòng ban.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/9.jpg" /> </p>
+<ul>
+<li>Thêm phòng ban:<ul>
+<li><strong>Người quản lý (1)</strong>: Chọn người quản lý có tài khoản quản trị ở hệ thống.</li>
+<li><strong>Tên phòng ban (2)</strong>: Nhập phòng ban .</li>
+<li><strong>Ghi chú (3)</strong>: Nhập ghi chú về phòng ban nếu có.</li>
+<li><strong>Lưu thay đổi (4)</strong>: Nhấn chọn để lưu dữ liệu</li>
+</ul>
+</li>
+</ul>
+<p><strong>Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập</strong></p>
+<p><img alt="" src="images/10.jpg" /> </p>
+<h3 id="4-on-vi-tai-san">4. Đơn vị tài sản</h3>
+<ul>
+<li>Quản trị đơn vị tài sản:<ul>
+<li><strong>Thêm đơn vị tài sản (1)</strong>: Thêm đơn vị tài sản mới.</li>
+<li><strong>Tên đơn vị tài sản (2)</strong>: Tên các đơn vị tài sản hiện có.</li>
+<li><strong>Ghi chú (3)</strong>: Ghi chú về đơn vị tài sản.</li>
+<li><strong>Chức nâng sửa xóa (4)</strong>: Cập nhật về đơn vị tài sản.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/11.jpg" /> </p>
+<ul>
+<li>Thêm đơn vị tài sản:<ul>
+<li><strong>Tên đơn vị tài sản (1)</strong>: Nhập đơn vị tài sản .</li>
+<li><strong>Ghi chú (2)</strong>: Nhập ghi chú về đơn vị tài sản nếu có.</li>
+<li><strong>Lưu thay đổi (3)</strong>: Nhấn chọn để lưu dữ liệu.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/12.jpg" /> </p>
+<p><strong>Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập</strong></p>
+<h3 id="5-quan-ly-tai-san">5. Quản lý tài sản</h3>
+<ul>
+<li>Quản trị tài sản:<ul>
+<li><strong>Tìm kiếm (1)</strong>: Nhập tên tài sản cần tìm vào ô Tìm kiếm theo từ khóa, lọc theo <strong>giá trị phòng ban (1.1)</strong>, lọc theo <strong>trạng thái (1.2)</strong>, <strong>số lượng kết quả tìm kiếm (1.3)</strong>, nhấn chọn tìm kiếm để tìm kiếm tài sản.</li>
+<li><strong>Chức nâng xuất file excel (3)</strong>: Nhập tháng/năm của tài sản có ở danh sách tài sản cần xuất (05/2018), nhấn chọn Trích xuất excel khấu hao tài sản để xuất file excel tính khấu hao tài sản, Trích xuất excel phân bổ CCDC để xuất file excel phân bổ công cụ dụng cụ.</li>
+<li><strong>Phòng Ban (6)</strong>: Bộ phận sử dụng.</li>
+<li><strong>Trạng thái (7)</strong>: Hiển thị và ẩn của tài sản.</li>
+<li><strong>Số lượng (8)</strong>: Số lượng tài sản hiện có.</li>
+<li><strong>Thời gian đưa vào sử dụng (10)</strong>: Bắt đầu tính thời gian khấu hao của tài sản.</li>
+<li><strong>Thời gian khấu hao (11)</strong>: Bắt đầu tính khấu hao từ Thời gian đưa vào sử dụng.</li>
+<li><strong>Chức nâng sửa xóa (12)</strong>: Cập nhật về đơn vị tài sản.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/13.jpg" /> </p>
+<ul>
+<li>Thêm tài sản:<ul>
+<li><strong>Nhà sản xuất (1)</strong>: Chọn nhà sản xuất có sẵn trong ô dữ liệu đã tạo ở phần Nhà sản xuất.</li>
+<li><strong>Đơn vị (2)</strong>: Chọn đơn vị có sẵn ở ô dữ liệu đã tạo ở phần Đơn vị tài sản.</li>
+<li><strong>Loại tài sản (3)</strong>: Chọn loại tài sản có sẵn ở ô dữ liệu đã tạo ở phần Loại tài sản.</li>
+<li><strong>Trạng thái (4)</strong>: Trạng thái hoạt động của tài sản, chọn ở ô dữ liệu có sẵn.</li>
+<li><strong>Bộ phận sử dụng (5)</strong>: Chọn bộ phận sử dụng có sẵn ở ô dữ liệu đã tạo ở phần Phòng ban.</li>
+<li><strong>Phòng sử dụng (6)</strong>: Nhập các phòng khác nếu có.</li>
+<li><strong>Mã tài sản (7)</strong>: Nhập mã tài sản nếu có.</li>
+<li><strong>Tên tài sản (8)</strong>: Nhập tên gọi của tài sản.</li>
+<li><strong>Thời gian đưa vào sử dụng (9)</strong>: Nhập thời gian bắt đầu sử dụng để tính khấu hao sản phẩm.</li>
+<li><strong>Thời gian khấu hao (10)</strong>: Nhập thời gian khấu hao để tính khấu hao tài sản.</li>
+<li><strong>Số lượng (11)</strong>: Số lượng tài sản nhập về.</li>
+<li><strong>Tổng giá trị (12)</strong>: Nhập tổng giá trị tài sản, dùng tính khấu hao tài sản.</li>
+<li><strong>Lưu thay đổi (13)</strong>: Nhấn chọn để lưu tài sản.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập</strong></p>
+<p><img alt="" src="images/14.jpg" /> </p>
+<h3 id="6-kiem-ke-tai-san">6. Kiểm kê tài sản</h3>
+<ul>
+<li>Quản trị kiểm kê tài sản:<ul>
+<li><strong>Tìm kiếm (1)</strong>: Nhập tìm kiếm vào ô Tìm kiếm phòng ban sử dụng nhấn tìm kiếm để tìm theo phòng ban kiểm kê.</li>
+<li><strong>Kiểm kê tài sản (2)</strong>: Tạo đợt kiểm kê tài sản mới.</li>
+<li><strong>Stt (3)</strong>: Số thứ tự của đợi kiểm kê.</li>
+<li><strong>Phòng kiểm kê (4)</strong>: Tên các phòng kiểm kê tài sản theo đợi.</li>
+<li><strong>Thời gian kiểm kê (5)</strong>: Thời gian tạo kiểm kê.</li>
+<li><strong>Xóa (6)</strong>: Xóa đợt kiểm kê.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/15.jpg" /> </p>
+<ul>
+<li>Kiểm kê tài sản:<ul>
+<li><strong>Đơn vị (A)</strong>: Chọn đơn vị cần kiểm kê tài sản.</li>
+<li><strong>Thời gian kiểm kê (B)</strong>: Nhập thời gian bắt đầu kiểm kê.</li>
+<li><strong>Thành phần ban kiểm kê gồm</strong>: Nhập tìm kiếm nhân sự tham gia kiểm kê (D) và nhấn chọn nhân sự, Chức vụ: nhập chức vụ của thành viên tham gia kiểm kê (E), bỏ chọn nhân sự tham gia kiểm kê (C).</li>
+<li><strong>1: Số thứ tự tài sản</strong>.</li>
+<li><strong>2: Danh sách tên tài sản</strong>.</li>
+<li><strong>3: Đơn vị tài sản</strong>.</li>
+<li><strong>5: Bộ phận sử dụng là đơn vị được kiểm kê</strong>.</li>
+<li><strong>6: Số lượng tài sản khi nhập vào</strong>.</li>
+<li><strong>7: Tổng giá trị của tài sản</strong>.</li>
+<li><strong>8: Giá trị còn sau khi tính trừ khấu hao</strong>.</li>
+<li><strong>9: Nhập số lượng kiểm kê thực tại hiện có sau khi kiểm kê</strong>.</li>
+<li><strong>10: Nhập số lượng tài sản hỏng nếu có</strong>.</li>
+<li><strong>11: Số lượng tài sản đang sử dụng</strong>.</li>
+<li><strong>12: Nhập số lượng tài sản thừa nếu có</strong>.</li>
+<li><strong>13: Nhập số lượng tài sản thiếu nếu có</strong>.</li>
+<li><strong>14: Ghi chú về tài sản sau khi kiểm kê</strong>.</li>
+<li><strong>Ghi dữ liệu: Nhấn ghi dữ liệu để kết thúc kiểm kê</strong>.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="images/16.jpg" /> </p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Bản quyền thuộc về <a href="https://tdfoss.vn"><strong>CÔNG TY TNHH PHÁT TRIỂN VÀ DỊCH VỤ NGUỒN MỞ THUẬN ĐỨC</strong></a><br />Yêu cầu giữ ghi chú bản quyền khi sao chép thông tin từ website này.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
