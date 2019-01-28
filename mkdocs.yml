@@ -19,6 +19,7 @@ nav:
     - Sản phẩm:
         - Website tổ chức thi trắc nghiệm khảo sát: san-pham/trac-nghiem-khao-sat/index.md
         - Website đặt phòng khách sạn: san-pham/dat-phong-khach-san/index.md
+        - Website kiểm kê tài sản: san-pham/kiem-ke-tai-san/index.md
 
 extra_css:
     - css/extra.css
