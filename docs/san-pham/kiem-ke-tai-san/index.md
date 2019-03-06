@@ -2,15 +2,19 @@
 title: Website kiểm kê tài sản
 ---
 
-## I. Đăng nhập khu vực quản trị.
+
+## I. Đăng nhập khu vực quản trị
+
 
 -	Nếu là người quản trị hệ thống, bạn tiến hành truy cập vào tài khoản quản trị qua đường dẫn này [www.domain.vn/admin](http://domain.vn/admin).
 
 -	Thông tin username + password đã được gửi qua email người chịu trách nhiệm dự án.
 
-## II.	Quản trị tài khoản.
 
-### 1. Thêm tài khoản mới:
+## II.	Quản trị tài khoản
+
+### 1. Thêm tài khoản mới
+
 - Chọn module Quản lý tài khoản, chọn Menu Thêm tài khoản mới (hoặc URL này [www.domain.vn/admin/index.php?language=vi&nv=users&op=user_add](http://domain.vn/admin/index.php?language=vi&nv=users&op=user_add)).
 - Nhập dữ liệu theo mẫu:
 	- **Tài khoản (1)**: Nhập họ và tên của chủ tài khoản.
@@ -34,7 +38,7 @@ title: Website kiểm kê tài sản
 	
 ![](images/1.jpg) 
 
-### 2. Quản lý tài khoản:
+### 2. Quản lý tài khoản
 
 Hệ thống quản lý các tài khoản trên hệ thống dưới dạng danh sách với các thông tin sau:
 
@@ -48,7 +52,7 @@ Hệ thống quản lý các tài khoản trên hệ thống dưới dạng danh
 
 ![](images/2.jpg) 
 
-### 3. Thêm quản trị.
+### 3. Thêm quản trị
 
 Để thêm quản trị, thành viên đó phải có tài khoản trên hệ thống. - Chọn Module Quản trị, chọn
 
@@ -70,7 +74,7 @@ menu Thêm quản trị (hoặc URL này [www.domain.vn/admin/index.php?language
 
 ![](images/3.jpg) 
 
-### 4. Quản lý Quản trị trang:
+### 4. Quản lý Quản trị trang
 
 Danh sách các tài khoản quản trị trên trang gồm các dữ liệu:
 
@@ -83,11 +87,12 @@ Danh sách các tài khoản quản trị trên trang gồm các dữ liệu:
 
 ![](images/4.jpg) 
 
-## III. Sửu dụng hệ thống kiểm kê tài sản.
+
+## III. Quản lý kiểm kê tài sản
 
 Truy cập tên miền chính [www.domain.vn](http://domain.vn) và đăng nhập tài khoản đã được cấp
 
-### 1. Loại tài sản:
+### 1. Loại tài sản
 
 - Quản trị tài sản:
 	- **Thêm loại tài sản (1)**: Thêm loại tài sản mới.
@@ -104,7 +109,7 @@ Truy cập tên miền chính [www.domain.vn](http://domain.vn) và đăng nhậ
 	
 ![](images/6.jpg) 
 	
-### 2. Nhà sản xuất:
+### 2. Nhà sản xuất
 
 - Quản trị nhà sản xuất:
 	- **Thêm nhà sản xuất (1)**: Thêm nhà sản xuất mới.
@@ -123,7 +128,7 @@ Truy cập tên miền chính [www.domain.vn](http://domain.vn) và đăng nhậ
 
 **Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập**
 
-### 3. Phòng ban:
+### 3. Phòng ban
 
 - Quản trị phòng ban:
 	- **Thêm phòng ban (1)**: Thêm phòng ban mới.
@@ -143,7 +148,7 @@ Truy cập tên miền chính [www.domain.vn](http://domain.vn) và đăng nhậ
 
 ![](images/10.jpg) 
 
-### 4. Đơn vị tài sản:
+### 4. Đơn vị tài sản
 
 - Quản trị đơn vị tài sản:
 	- **Thêm đơn vị tài sản (1)**: Thêm đơn vị tài sản mới.
@@ -162,7 +167,7 @@ Truy cập tên miền chính [www.domain.vn](http://domain.vn) và đăng nhậ
 
 **Chú ý: Các trường dữ liệu có dấu “ <span class="red">*</span>  ” là bắt buộc phải nhập**
 
-### 5. Quản lý tài sản:
+### 5. Quản lý tài sản
 
 - Quản trị tài sản:
 	- **Tìm kiếm (1)**: Nhập tên tài sản cần tìm vào ô Tìm kiếm theo từ khóa, lọc theo **giá trị phòng ban (1.1)**, lọc theo **trạng thái (1.2)**, **số lượng kết quả tìm kiếm (1.3)**, nhấn chọn tìm kiếm để tìm kiếm tài sản.
@@ -195,7 +200,7 @@ Truy cập tên miền chính [www.domain.vn](http://domain.vn) và đăng nhậ
 
 ![](images/14.jpg) 
 
-### 6. Kiểm kê tài sản:
+### 6. Kiểm kê tài sản
 
 - Quản trị kiểm kê tài sản:
 	- **Tìm kiếm (1)**: Nhập tìm kiếm vào ô Tìm kiếm phòng ban sử dụng nhấn tìm kiếm để tìm theo phòng ban kiểm kê.
