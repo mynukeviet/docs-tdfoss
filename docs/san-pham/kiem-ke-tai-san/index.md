@@ -2,15 +2,19 @@
 title: Website kiểm kê tài sản
 ---
 
+
 ## I. Đăng nhập khu vực quản trị
+
 
 -	Nếu là người quản trị hệ thống, bạn tiến hành truy cập vào tài khoản quản trị qua đường dẫn này [www.domain.vn/admin](http://domain.vn/admin).
 
 -	Thông tin username + password đã được gửi qua email người chịu trách nhiệm dự án.
 
+
 ## II.	Quản trị tài khoản
 
 ### 1. Thêm tài khoản mới
+
 - Chọn module Quản lý tài khoản, chọn Menu Thêm tài khoản mới (hoặc URL này [www.domain.vn/admin/index.php?language=vi&nv=users&op=user_add](http://domain.vn/admin/index.php?language=vi&nv=users&op=user_add)).
 - Nhập dữ liệu theo mẫu:
 	- **Tài khoản (1)**: Nhập họ và tên của chủ tài khoản.
@@ -82,6 +86,7 @@ Danh sách các tài khoản quản trị trên trang gồm các dữ liệu:
 - **Chức năng (6)**: Sửa, đình chỉ hoạt động, xóa tài khoản quản trị Tài khoản quản trị chỉ được phép sửa hoặc xóa tài khoản quản trị cùng hoặc dưới cấp.
 
 ![](images/4.jpg) 
+
 
 ## III. Quản lý kiểm kê tài sản
 
