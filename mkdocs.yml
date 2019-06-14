@@ -15,12 +15,14 @@ theme:
 nav:
     - Hướng dẫn chung:
         - Đăng nhập quản trị: huong-dan-chung/dang-nhap-quan-tri.md
-        - Hướng dẫn quản trị hosting Directadmin: huong-dan-chung/huong-dan-quan-tri-admin-directadmin.md
         
     - Sản phẩm:
         - Website tổ chức thi trắc nghiệm khảo sát: san-pham/trac-nghiem-khao-sat/index.md
         - Website đặt phòng khách sạn: san-pham/dat-phong-khach-san/index.md
         - Hệ thống kiểm kê tài sản: san-pham/kiem-ke-tai-san/index.md
+        
+    - Hosting - domain:
+        - Quản lý hosting Directadmin: hosting-domain/huong-dan-quan-tri-admin-directadmin.md
 
 extra_css:
     - css/extra.css
